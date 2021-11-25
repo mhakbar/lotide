@@ -23,7 +23,7 @@ const middle = function(array1) {
   //let secondArray = [];
 
   for (let i = 0; i < array1.length; i++) {
-    if (array1.length === 0 || array1.length === 1 || array1.length === 2) {
+    if (array1.length === 0 || array1.length === 1 ) {
       return ("empty array: ", []);
 
     } else if (array1.length % 2 === 0) {
