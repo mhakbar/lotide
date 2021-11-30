@@ -10,8 +10,10 @@ const assertEqual = function(actual, expected, msg, msg2) {
   }
 
 };
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+//commenting below test code on 29th Nov 2021, Week 2, Day 2.
+
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
 
 
 
@@ -22,3 +24,7 @@ assertEqual(1, 1);
 
 //} else {
 //console.log(error2 + [actual] !== [expected]);
+
+//29th Nov 2021, week 2, adding export file to LOTIDE folder
+
+module.exports = assertEqual;
